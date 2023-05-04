@@ -1,0 +1,108 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.nav-bar {
+	background-color: gray;
+	width: 100%;
+	height: 5vh;
+}
+
+	.navigator {
+		background-color: gray;
+		font-family: Arial, sans-serif;
+		font-size: 16px;
+		padding: 10px;
+	}
+	
+	.navigator2 {
+		background-color: gray;
+		font-family: Arial, sans-serif;
+		font-size: 16px;
+		text-align: center;
+		padding: 10px;
+	}
+	
+		.nav-list {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+			.list-content {
+				display: inline-block;
+			}
+			
+				.list-content-link {
+					background-color: black;
+					border: 2px sold white;
+					border-radius: 5px;
+					color: white;
+					display: block;
+					padding: 10px;
+					text-align: center;
+					text-decoration: none;
+					transition: all 0.3s ease-in-out;
+				}
+				
+				.list-content-link2 {
+					background-color: black;
+					border: 2px sold white;
+					border-radius: 5px;
+					color: white;
+					display: block;
+					padding: 10px 400px;
+					text-align: center;
+					text-decoration: none;
+					transition: all 0.3s ease-in-out;
+				}
+				
+				.list-content-link:hover {
+					background-color: lightgray;
+					color: black;
+				}
+				
+				.list-content-link2:hover {
+					background-color: lightgray;
+					color: black;
+				}
+
+.intro-img {
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	margin-top: 30px;
+	background-color: lightgray;
+	background-image: url(../Images/DSC_0044-1.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.text-box {
+	margin-top: 50px;
+	background-color: gray;
+	width: 100%;
+	height: 75vh;
+}
+
+	.seperator {
+		height: 1px;
+	}
+
+	.text-header {
+		background-color: black;
+		border: 2px sold white;
+		border-radius: 5px;
+		color: white;
+		display: block;
+		padding: 10px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.text {
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
